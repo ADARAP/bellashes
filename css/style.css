@@ -212,8 +212,8 @@ Top Navigation
 	list-style: none;
 	text-align: center;
 	width: 100%;
-	border-top: solid 1px #FFFFFF;
-	border-bottom: solid 1px #FFFFFF;
+	border-top: solid 1px #c4007a;
+	border-bottom: solid 1px #c4007a;
 }
 .navigation ul li {
 	display: inline-block;
@@ -222,12 +222,13 @@ Top Navigation
 .navigation ul li a {
 	padding: 25px 30px;
 	display: block;
-	color: #fff;
+	color: #c4007a;
 	font-size: 16px;
 	font-weight: 600;
 }
 .navigation ul li a:hover, .navigation ul li:hover > a {
 	text-decoration: none;
+	color: #FFF;
 }
 .navigation ul ul {
 	position: absolute;
@@ -362,7 +363,7 @@ Banner Section
 	font-size: 11px;
 	text-transform: uppercase;
 	margin: 0px;
-	color: #e5f99a;
+	color: #5d1660;
 	line-height: 15px;
 }
 .support p {
