@@ -2267,12 +2267,13 @@ Shopping Cart
 	font-size: 48px;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	padding: 5px 20px;
+	color: #fff !important;
 }
 .special-offer {
 	font-size: 18px;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	color: #FFFFFF;
-	background-color: #000000;
+	background-color: #C20F7A;
 	margin: 15px 0px 0px 0px;
 	padding: 8px 20px;
 }
