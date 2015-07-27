@@ -83,6 +83,36 @@ body {
 .bold {
 	font-weight: bold !important;
 }
+
+
+
+.fndo1{
+	background-image: url(../images/ex1.jpg);
+    background-position: right top;
+    background-repeat: no-repeat, repeat;
+}
+
+.fndo2{
+	background-image: url(../images/ex2.png);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+}
+
+.fndo3{
+	background-image: url(../images/ex4.png);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+}
+
+.fndo4{
+	background-image: url(../images/ex3.png);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+}
+
+.titulobnc {
+	color: #FFF !important;
+}
 /*
 =========================================================
 Header Section
@@ -2237,7 +2267,7 @@ Shopping Cart
 .shipping .caption h3 {
 	font-family: 'Great Vibes', cursive;
 	font-size: 36px;
-	color: #d8a877;
+	color: #7F297E;
 }
 .shipping .caption h2.pink {
 	font-weight: bold;
