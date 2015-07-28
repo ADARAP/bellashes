@@ -490,7 +490,7 @@ CONTENT AREA START
 }
 .williams {
 	float: left;
-	width: 100%;
+	width: 80%;
 	padding: 75px 0px 50px 0px;
 	background-image: url(../images/shadow.png);
 	background-repeat: no-repeat;
@@ -502,10 +502,8 @@ CONTENT AREA START
 .williams img {
 	float: left;
 	margin: 0px 20px 0px 20px;
-	border: solid 5px #FFFFFF;
-	box-shadow: 0 5px 3px 0 rgba(0, 0, 0, 0.5);
-	-webkit-box-shadow: 0 5px 3px 0 rgba(0, 0, 0, 0.5);
-	-moz-box-shadow: 0 5px 3px 0 rgba(0, 0, 0, 0.5);
+	
+	
 }
 .williams p {
 	font-family: 'Trocchi', serif;
