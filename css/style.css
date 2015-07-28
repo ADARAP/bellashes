@@ -479,7 +479,7 @@ CONTENT AREA START
 	border-top: solid 1px #c4c4c3;
 }
 .about {
-	float: left;
+	float: right !important;
 	width: 100%;
 	padding: 30px 0px 38px 0px;
 }
