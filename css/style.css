@@ -385,6 +385,26 @@ Banner Section
 	bottom: 18px;
 	z-index: 100;
 }
+
+
+@media (max-width: 768px){
+
+	.call-us {
+	right: 0px;
+	width: 400px;
+	position: absolute;
+	bottom: 2px;
+	z-index: 100;
+	margin-top: 20px !important;
+	vertical-align: middle;
+}
+
+
+}
+
+
+
+
 .support {
 	float: left;
 	width: 180px;
@@ -483,7 +503,7 @@ CONTENT AREA START
 	float: right !important;
 	width: 100%;
 	padding: 30px 0px 38px 0px;
-	
+
 }
 .pink {
 	font-size: 15px;
@@ -544,6 +564,14 @@ CONTENT AREA START
 	font-size: 48px;
 	font-weight: 600;
 }
+
+.dere{
+	text-align: right;
+	float: right;
+
+}
+
+
 .whats-new-left {
 	float: left;
 	width: 850px;
