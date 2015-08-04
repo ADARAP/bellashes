@@ -419,6 +419,7 @@ Banner Section
 	float: left;
 	height: inherit !important;
 	height:auto !important;
+	margin: 8px !important;
 }
 .social ul li a {
 	display: block;
@@ -482,6 +483,7 @@ CONTENT AREA START
 	float: right !important;
 	width: 100%;
 	padding: 30px 0px 38px 0px;
+	
 }
 .pink {
 	font-size: 15px;
