@@ -1272,6 +1272,30 @@ About us page
 .category-banner1 {
 	background-image: url(../images/category-banner1.png);
 }
+
+
+.category-banner2 {
+	background-image: url(../images/category-banner2.png);
+}
+
+.category-banner3 {
+	background-image: url(../images/category-banner3.png);
+}
+
+.category-banner4 {
+	background-image: url(../images/category-banner4.png);
+}
+
+.category-banner5 {
+	background-image: url(../images/category-banner5.png);
+}
+
+.category-banner6 {
+	background-image: url(../images/category-banner6.png);
+}
+
+
+
 .about-us {
 	padding: 40px 0px;
 }
