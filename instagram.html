@@ -14,7 +14,108 @@
 <link href="css/bootstrap-responsive.css" rel="stylesheet" media="screen" />
 
 
+
+
+
+
+
+
+<style>
+
+body {
+    margin-bottom: 200px;
+}
+
+/*this is where jQuery appends the instagram json response*/
+#instagram {
+    float: left;
+    padding: 20px;
+}
+
+/*around each image*/
+.instagram-wrap {
+    float: left;
+    position: relative;
+    background: white;
+    padding: 5px;
+    margin: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.instagram-wrap .likes {
+    height: 16px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    padding: 0 5px 0 22px;
+    line-height: 16px;
+    border: 1px solid #ddd;
+    background: white url('fav.png') no-repeat 2px 0;
+    opacity: 0.6;
+}
+
+/*does what it says*/
+.clearfix {
+     clear:both;
+}
+
+/*wrapper for more pics*/
+#showMore{
+    background: #202628;
+    margin: 20px 15px 28px;
+    text-align: center;
+}
+
+/*button for more pics if available*/
+#more {
+padding: 10px;
+margin: 20px;
+color: #CCC;
+font-size: 20px;
+line-height: 22px;
+display: block;
+font-family: "brandon_bold",Arial,Helvetica,sans-serif;
+}
+
+</style>
+
+
+
+<div id="page">
+<div id="main_content_wrapper" class="clearfix">
+<div id="content_wrapper_box">
+
+
+
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js"></script>
+<style>
+#main-navigation #navigation li.has-drop-down.trend{display: none;}
+
+/******  hide the footer for easier dev *********/
+#sticky-footer-wrap{/* display: none; */ }
+
+/******  hide the footer flyouts for easier dev *********/
+.sticky-flyout, #Footer_Flyout_1, #Footer_Flyout_2{ /* display: none !important; */ }
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
 <script type="text/javascript" >
+
+
+
+
 ////////////////////////////////
 //
 // CONFIGURATION VARIABLES http://stuffthatspins.com/2014/03/11/display-instagram-hashtag-and-user-picture-stream-really-easy-with-jquery-and-json/
@@ -26,8 +127,8 @@ var access_token = "18360510.5b9e1e6.de870cc4d5344ffeaae178542029e98b"; //*** YO
 //http://dmolsen.com/2013/04/05/generating-access-tokens-for-instagram/
 
 var resolution = "thumbnail"; // resolution: low_resolution, thumbnail, standard_resolution
-var user_id = "18360510"; //userid
-var hashtag = "racehungry"; // #hashtag
+var user_id = "937551025"; //userid
+var hashtag = "bellashes"; // #hashtag
 var last_url = "";
 
 //HASHTAG URL - USE THIS URL FOR HASHTAG PICS
@@ -220,6 +321,8 @@ $( document ).ready(function() {
                 </div>
             </div>
         </div>
+
+
       <!--HEADER END-->   
         <div class="banner relative">
         	<div class="category-banner category-banner2">
@@ -228,6 +331,8 @@ $( document ).ready(function() {
                 </div>          
             </div>          
       </div>
+
+
         <div class="content">
         	<!--INTRO SECTION START-->
         	<div class="wrapper our-team">
@@ -237,24 +342,30 @@ $( document ).ready(function() {
                     </div>
 
 
+               <div>
 
 
 
+ <!--INTRO SECTION END-->
 
 
-
-
-
-                    <div>
-    
-    <!-- instagram pics -->
     <div id="instagram"></div>
     <div class='clearfix'></div>
-    <!-- button -->
+    
     <div id="showMore">
         <div class='clearfix '><a id='more' next_url='"+next_url+"' href='#'>[Load More]</a></div>      
     </div>
 </div>
+
+
+
+
+
+
+
+
+
+
                 	
 
 
@@ -275,6 +386,16 @@ $( document ).ready(function() {
 
                 </div>
             </div>
+
+
+
+
+
+
+
+
+
+
             <!--INTRO SECTION END-->
             <!--NEWSLETTERS START-->
             <div class="wrapper news-letters">
