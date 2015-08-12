@@ -122,271 +122,84 @@ $headers = 'From: '.$email_from."\r\n".
     	<!--HEADER START-->
 
     	<div class="header">
+            <!--TOP STRIP START-->
+            <div class="top-strip" id="back-top">
+                <div class="container">
+                <div class="language">
 
-        	<!--TOP STRIP START-->
+                    <a href="index.html"><img src="images/login.png" width="17%" alt="bellashes"></a>
+                    
 
-        	<div class="top-strip" id="back-top">
-
-            	<div class="container">
-
-            	<div class="language">
-
-                    <div class="dropdown">
-
-                    <a class="dropdown-toggle arrow" data-toggle="dropdown" href="#">Language: English</a>
-
-                        <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-
-                        	<li><a href="#">English</a></li>
-
-                            <li><a href="#">Urdu</a></li>
-
-                            <li><a href="#">Arabic</a></li>
-
-                            <li><a href="#">Spanish</a></li>
-
-                        </ul>
-
-                    </div>
-
-                    <div class="dropdown">
-
-                    <a class="dropdown-toggle arrow" data-toggle="dropdown" href="#">Currency: EUR</a>
-
-                        <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-
-                            <li><a href="#">Dollar</a></li>
-
-                            <li><a href="#">Diner </a></li>
-
-                            <li><a href="#">Dirham</a></li>
-
-                            <li><a href="#">PKR</a></li>                        
-
-                       </ul>
-
-                    </div>
-
-                    <p>Telephone: +565 975 658</p>
-
+                    
                 </div>
-
                 <div class="top-nav">
-
-                	<ul>
-
-                    	<li><a href="#">Account</a></li>
-
-                        <li><a href="#myModal" role="button" data-toggle="modal">Login</a></li>
-
-                        <li><a href="#">Register</a></li>
-
-                        <li><a href="#">Checkout</a></li>
-
-                    </ul>                    
-
-                </div>
-
-            </div>
-
-            </div>
-
-            <!--TOP STRIP END-->            
-
-            <div class="navigation">
-
-            	<div class="container">
-
-                	<div class="row">
-
-                    	<div class="span5 visible-desktop">
-
-                        	<ul>
-
-                                <li><a href="#">Home</a>
-
-                                	<ul>
-
-                                        <li><a href="index.html">Full Width</a></li>
-
-                                        <li><a href="index-boxed.html">Boxed</a></li>
-
-                                        <li><a href="index-dark.html">Dark theme</a></li>
-
-                                    </ul>
-
-                                </li>
-
-                                <li><a href="services.html">Services</a></li>
-
-                                <li><a href="team.html">Meet the team</a></li>
-
-                            </ul>
-
-                        </div>
-
-                        <div class="span2">
-
-                        	<div class="logo">
-
-                            	<img src="images/logo.png" alt="Hair Salon">
-
-                             </div>
-
-                        </div>
-
-                        <div class="span5 visible-desktop">
-
-                        	<ul>
-
-                                <li><a href="blog.html">Blog</a>
-
-                                    <ul>
-
-                                        <li><a href="blog.html">Blog</a></li>
-
-                                        <li><a href="blog-detail.html">Blog Detail</a>
-
-                                        	<ul>
-
-                                                <li><a href="blog.html">Blog</a></li>
-
-                                                <li><a href="blog-detail.html">Blog Detail</a></li>
-
-                                            </ul>
-
-                                        </li>
-
-                                    </ul>
-
-                                </li>
-
-                                <li><a href="contact-us.html">Contact</a></li>
-
-                                <li><a href="#">Other Pages</a>
-
-                                    <ul>
-
-                                        <li><a href="news.html">News</a></li>
-
-                                        <li><a href="news-detail.html">News Detail</a></li>
-
-                                        <li><a href="cart.html">Cart</a></li>
-
-                                        <li><a href="products.html">Product</a></li>
-
-                                        <li><a href="products-detail.html">Product Detail</a></li>
-
-                                        <li><a href="products-list.html">Product List</a></li>
-
-<li><a href="about-us.html">About Us</a></li>
-
-                                    </ul>
-
-                                </li>
-
-                            </ul>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="navbar hidden-desktop">
-
-                <div class="navbar-inner">
-
-                    <div class="container">
-
-                    <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-
-                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-
-                    <span class="icon-bar"></span>
-
-                    <span class="icon-bar"></span>
-
-                    <span class="icon-bar"></span>
-
-                    </a>
-
-                    <!-- Everything you want hidden at 940px or less, place within here -->
-
-                    <div class="nav-collapse collapse">
-
-                    <!-- .nav, .navbar-search, .navbar-form, etc -->
-
                     <ul>
-
-                        <li><a href="index.html">Home</a>
-
-                            <ul>
-
-                                <li><a href="index.html">Full Width</a></li>
-
-                                <li><a href="index-boxed.html">Boxed</a></li>
-
-                                <li><a href="index-dark.html">Dark theme</a></li>
-
-                            </ul>
-
-                        </li>
-
-                        <li><a href="services.html">Services</a></li>
-
-                        <li><a href="team.html">Meet the team</a></li>
-
-                        <li><a href="blog.html">Blog</a>
-
-                            <ul>
-
-                                <li><a href="blog.html">Blog</a></li>
-
-                                <li><a href="blog-detail.html">Blog Detail</a></li>
-
-                            </ul>
-
-                        </li>
-
-                        <li><a href="contact-us.html">Contact</a></li>
-
-                        <li><a href="#">Other Pages</a>
-
-                            <ul>
-
-                                <li><a href="news.html">News</a></li>
-
-                                <li><a href="news-detail.html">News Detail</a></li>
-
-                                <li><a href="cart.html">Cart</a></li>
-
-                                <li><a href="products.html">Product</a></li>
-
-                                <li><a href="products-detail.html">Product Detail</a></li>
-
-                                <li><a href="products-list.html">Product List</a></li>
-
-<li><a href="about-us.html">About Us</a></li>
-
-                            </ul>
-
-                        </li>
-
-                    </ul>
-
-                    </div>
-
-                     
-
-                    </div>
-
+                        <li><a href="plan.html">Plan de negocios</a></li>
+                        
+                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="tel:+52 (222) 681 0865">¡Llámanos!</a></li>
+                    </ul>                    
                 </div>
-
             </div>
+            </div>
+            <!--TOP STRIP END-->            
+            <div class="navigation">
+                <div class="container">
+                    <div class="row">
+                        <div class="span5 visible-desktop">
+                            <ul>
+                                <li><a href="nosotros.html">Nosotros</a></li>
+                                <li><a href="mirada.html">Plan de Mirada</a></li>
+                                <li><a href="servicios.html">Servicios</a></li>
+                                
+                            </ul>
+                        </div>
+                        <div class="span2">
+                            <div class="logo">
+                                <a href="index.html"><img src="images/logo.png" alt="Bellashes"></a>
+                             </div>
+                        </div>
+                        <div class="span5 visible-desktop">
+                            <ul>
 
+                               <li><a href="productos.html">Productos</a></li>
+
+                               <li><a href="salones.html">Salones</a></li>
+                               
+                               <li><a href="instagram.html">Galería</a></li> 
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar hidden-desktop">
+                <div class="navbar-inner">
+                    <div class="container">
+                    <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </a>
+                    <!-- Everything you want hidden at 940px or less, place within here -->
+                    <div class="nav-collapse collapse">
+                    <!-- .nav, .navbar-search, .navbar-form, etc -->
+                    <ul>
+                        <li><a href="nosotros.html">Nosotros</a></li>
+                        <li><a href="mirada.html">Plan de Mirada</a></li>
+                        <li><a href="servicios.html">Servicios</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="salones.html">Salones</a></li>
+                        <li><a href="instagram.html">Galería</a></li>
+                        
+                        
+                    </ul>
+                    </div>
+                     
+                    </div>
+                </div>
+            </div>
         </div>
 
       <!--HEADER END-->   
@@ -397,7 +210,7 @@ $headers = 'From: '.$email_from."\r\n".
 
             	<div class="container">
 
-                	<h1>Successful Message!</h1>
+                	<h1>Mensaje enviado!</h1>
 
                 </div>            
 
@@ -412,7 +225,7 @@ $headers = 'From: '.$email_from."\r\n".
         	<div class="wrapper contact-us">
             	<div class="container">
 					<div class="header">
-						<h2>Thank you for your submission! we will get back you shortly!</h2>
+						<h2>¡Gracias por escribir, nos comunicaremos contigo muy pronto!</h2>
 					</div>
                 </div>
             </div>
@@ -421,268 +234,191 @@ $headers = 'From: '.$email_from."\r\n".
 
             <!--NEWSLETTERS START-->
 
+            
+            
             <div class="wrapper news-letters">
-
-            	<div class="container">
-
-                	<div class="row">
-
-                    	<div class="span6">
-
-                        	<h3>Sign Up for Our Newsletter</h3>
-
-                            <div class="input">
-
-                            	<input type="text">
-
-                                <button>Submit</button>
-
-                            </div>
-
-                        </div>
-
+                <div class="container">
+                    <div class="row">
                         <div class="span6">
-
-                        	<h3>24/7 Customer Service</h3>
-
-                            <p>Ut euismod, turpis sollicitudin lobortis pellentesque, libero massa dapibus dui, eu dictum justo urna et mi. Integer dictum est vitae sem.Nullam ac nisi non eros gravida venenatis.Nullam ac nisi non eros gravida venenatis.....Read More</p>
-
+                            <h3>Recibe nuestras ofertas</h3>
+                            <div class="input">
+                                <input type="text">
+                                <button>Registrate</button>
+                            </div>
                         </div>
-
+                        <div class="span6">
+                            <h3>Suscríbete a nuestro blog</h3>
+                            <p>Aquí te enterarás de los mejores tips de belleza y cuidado de la piel. </p>
+                        </div>
                     </div>
-
                 </div>
-
             </div>
-
-            <!--NEWSLETTERS END-->
-
         </div>
-
         <!--FOOTER START-->
-
         <div class="footer">
-
-        	<div class="container">
-
-            	<div class="row">
-
-                	<div class="span6">
-
+            <div class="container">
+                <div class="row">
+                    <div class="span6">
                         <div id="magazine" class="carousel slide">
-
                         <ol class="carousel-indicators">
-
                         <li data-target="#magazine" data-slide-to="0" class="active"></li>
-
                         <li data-target="#magazine" data-slide-to="1"></li>
-
                         <li data-target="#magazine" data-slide-to="2"></li>
-
                         </ol>
-
                         <!-- Carousel items -->
-
                         <div class="carousel-inner">
-
                         <div class="active item">
-
-                        	<div class="magazine">
-
-                        	<div class="thumb">
-
-                            	<a href="#"><img src="images/magazine.png" alt=""></a>
-
+                            <div class="magazine">
+                            <div class="thumb">
+                                <a href="#"><img src="images/magazine.png" alt=""></a>
                             </div>
-
                             <div class="text">
-
-                            	<h3>Magazine</h3>
-
-                                <h6>Subscribe</h6>
-
-                                <h6>Buy this issue</h6>
-
+                                <h3>Revista</h3>
+                                
+                                <h6><script type="text/javascript">
+var mm=new Date();
+var m2 = mm.getMonth() + 1;
+var mesok = (m2 < 10) ? '0' + m2 : m2;
+var mesok=new Array(12);
+mesok[0]="Enero";
+mesok[1]="Febrero";
+mesok[2]="Marzo";
+mesok[3]="Abril";
+mesok[4]="Mayo";
+mesok[5]="Junio";
+mesok[6]="Julio";
+mesok[7]="Agosto";
+mesok[8]="Septiembre";
+mesok[9]="Octubre";
+mesok[10]="Noviembre";
+mesok[11]="Diciembre";
+document.write(" " + mesok[mm.getMonth()]);
+</script></h6>
                                 <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. 
-
 Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. </p>
-
-								<a href="#">Read more</a>
-
+                                <a href="#">Leer</a>
                             </div>
-
                         </div>
-
                         </div>
-
                         <div class="item">
-
-                        	<div class="magazine">
-
-                        	<div class="thumb">
-
-                            	<a href="#"><img src="images/magazine2.png" alt=""></a>
-
+                            <div class="magazine">
+                            <div class="thumb">
+                                <a href="#"><img src="images/magazine2.png" alt=""></a>
                             </div>
-
                             <div class="text">
-
-                            	<h3>Magazine</h3>
-
-                                <h6>Subscribe</h6>
-
-                                <h6>Buy this issue</h6>
-
+                                <h3>Revista</h3>
+                                
+                                <h6><script type="text/javascript">
+var mm=new Date();
+var m2 = mm.getMonth() + 1;
+var mesok = (m2 < 10) ? '0' + m2 : m2;
+var mesok=new Array(12);
+mesok[0]="Enero";
+mesok[1]="Febrero";
+mesok[2]="Marzo";
+mesok[3]="Abril";
+mesok[4]="Mayo";
+mesok[5]="Junio";
+mesok[6]="Julio";
+mesok[7]="Agosto";
+mesok[8]="Septiembre";
+mesok[9]="Octubre";
+mesok[10]="Noviembre";
+mesok[11]="Diciembre";
+document.write(" " + mesok[mm.getMonth()]);
+</script></h6>
                                 <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. 
-
 Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. </p>
-
-								<a href="#">Read more</a>
-
+                                <a href="#">Leer</a>
                             </div>
-
                         </div>
-
                         </div>
-
                         <div class="item">
-
-                        	<div class="magazine">
-
-                        	<div class="thumb">
-
-                            	<a href="#"><img src="images/magazine.png" alt=""></a>
-
+                            <div class="magazine">
+                            <div class="thumb">
+                                <a href="#"><img src="images/magazine.png" alt=""></a>
                             </div>
-
                             <div class="text">
-
-                            	<h3>Magazine</h3>
-
-                                <h6>Subscribe</h6>
-
-                                <h6>Buy this issue</h6>
-
-                                <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. 
-
-Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. </p>
-
-								<a href="#">Read more</a>
-
+                                <h3>Revista</h3>
+                                
+                                <h6><script type="text/javascript">
+var mm=new Date();
+var m2 = mm.getMonth() + 1;
+var mesok = (m2 < 10) ? '0' + m2 : m2;
+var mesok=new Array(12);
+mesok[0]="Enero";
+mesok[1]="Febrero";
+mesok[2]="Marzo";
+mesok[3]="Abril";
+mesok[4]="Mayo";
+mesok[5]="Junio";
+mesok[6]="Julio";
+mesok[7]="Agosto";
+mesok[8]="Septiembre";
+mesok[9]="Octubre";
+mesok[10]="Noviembre";
+mesok[11]="Diciembre";
+document.write(" " + mesok[mm.getMonth()]);
+</script></h6>
+                                <p>Este mes en nuestro blog, Los mejores tips de maquillaje para el otoño. Mitos sobre la depilación. 7 formas de delinearte los ojos. </p>
+                                <a href="#">Leer</a>
                             </div>
-
                         </div>
-
                         </div>
-
                         </div>
-
                         </div>
-
                     </div>
-
                     <div class="span6">
-
-                    	<h3>The Salon</h3>
-
-                    	<div class="salon">
-
-                        	<div class="thumb">
-
-                            	<img src="images/salon.png" alt="">
-
-                            </div>
-
-                            <div class="text">
-
-                            	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit dictum praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est.</p>
-
-                                <a href="#">Read More</a>
-
-                            </div>
-
-                        </div>
-
+                        <h3>Nuestro Salón</h3>
                         <div class="salon">
-
-                        	<div class="detail">
-
-                            	<h3>Opening Time</h3>
-
-                                <p>Monday-Friday: ______8.00 to 18.00</p>
-
-								<p>Saturday: ____________ 9.00 to 18.00</p>
-
-								<p>Sunday: _____________10.00 to 16.00</p>
-
-								<p>Every 30 day of month Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
+                            <div class="thumb">
+                                <img src="images/salon.png" alt="">
                             </div>
-
+                            <div class="text">
+                                <p>En nuestros salones encontrarás especialistas que utilizan materiales de calidad en el momento de la personalización y colocación de las pestañas.</p>
+                                
+                            </div>
+                        </div>
+                        <div class="salon">
                             <div class="detail">
-
-                            	<h3>Contact Us</h3>
-
-                                <p>Avenue of the American Independent, st. 133/2 New York City, NY, United States</p>
-
-                                <p>(555) 438-555-314</p>
-
-                                <p>(555) 367-252-333</p>
-
-                                <p>info@Shop.com</p>
-
-                                <p>info@freshshop.com</p>
-
+                                <h3>Horarios</h3>
+                                <p>Lunes-Viernes: ______9.00 to 19.00</p>
+                                <p>Sábado: ____________ 9.00 to 14.00</p>
+                                
+                                <p>¡Bellashes es la extensión de tu mirada!</p>
                             </div>
-
+                            <div class="detail">
+                                <h3>Contacto</h3>
+                                <p>Calzada Zavaleta No. 130 Plaza Alta Vista Local 7, 72154 Puebla de Zaragoza</p>
+                                <p>(222) 681 0865</p>
+                                
+                                <p>zavaleta@bellashessalones.com</p>
+                                
+                            </div>
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
-
         </div>
-
         <!--FOOTER END-->
-
         <div class="wrapper copyrights">
-
-        	<div class="container">
-
-            	<div class="row">
-
-                	<div class="span6">
-
-                    	<img src="images/visa.png" alt="" class="pull-left">
-
-                        <p class="pull-left">Designed by Crunchpress.com</p>
-
-                    </div>
-
+            <div class="container">
+                <div class="row">
                     <div class="span6">
-
-                    <div class="go-top">
-
-                        	<a class="scroll-topp" id="back-top"><img src="images/go-to-top.png" alt=""></a>
-
-                        </div>
-
-                    	<p class="pull-right">© 2013 - Beauty Theme. All Rights Reserved.</p>
-
-                        
-
+                        <img src="images/visa.png" alt="" class="pull-left">
+                        <p class="pull-left">© 2015 - Bellashes</p>
                     </div>
-
+                    <div class="span6">
+                    <div class="go-top">
+                            <a class="scroll-topp" id="back-top"><img src="images/go-to-top.png" alt=""></a>
+                        </div>
+                        
+                        
+                    </div>
                 </div>
-
             </div>
-
         </div>
-
         <div class="clearfix"></div>
-
 </div>
 
 	<!--WRAPPER END-->
